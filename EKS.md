@@ -1,3 +1,10 @@
+
+```
+Authentication: Verifies who you are. In EKS, it can be managed through IAM roles/users, Kubernetes service accounts, and other mechanisms like OIDC.
+Authorization: Verifies what you can do. In EKS, this is managed primarily through Kubernetes RBAC and can be augmented with IAM roles via IRSA.
+```
+
+
 Here IAM OIDC connect act as meditatior between EKS and AWS IAM
 Here we associate OIDC to  integrate EKS with OIDC to utlize AWS IAM USERS 
 And that user will have some roles and policyes..
