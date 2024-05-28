@@ -4,7 +4,7 @@ Authentication: Verifies who you are. In EKS, it can be managed through IAM role
 Kubernetes service accounts, and other mechanisms like OIDC.
 
 Authorization: Verifies what you can do. In EKS, this is managed primarily through
-Kubernetes RBAC and can be augmented with IAM roles via IRSA.
+Kubernetes RBAC and can be augmented with IAM roles via IRSA (IAM Role for service account).
 ```
 
 
